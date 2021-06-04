@@ -1,3 +1,7 @@
+
+function take_snapshot(){
+      save('student_name.png');
+} 
 function setup() {
       canvas = createCanvas(640, 480);
        canvas.position(110, 250);
@@ -14,22 +18,27 @@ function setup() {
           stroke(0,128,0);
           rect(90,40,460,20);
           
-          rect(90,420,460,20);
           fill(255,0,0);
-          circle (50,50,80);
-          
+          circle (510,50,80);
+
           fill(0,128,0);
           stroke(0,128,0);
-         
-          rect(50,50,20,460);
+          rect(520,20,20,440);
+          
           fill(255,0,0);
-          circle (50,438,80);
+          circle (50,50,80);
 
-          rect(50,50,460,20);
+          fill(0,128,0);
+          stroke(0,128,0);
+          rect(50,440,460,20);
+          
           fill(255,0,0);
-          circle (50,438,80);
+          circle (510,440,80);
 
-          rect(120,460,460,20);
-          fill(0,255,0);
-          circle (50,438,80);
+          fill(0,128,0);
+          stroke(0,128,0);
+          rect(90,40,20,460);
+          
+          fill(255,0,0);
+          circle (60,440,80);
          }
